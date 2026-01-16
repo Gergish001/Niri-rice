@@ -4,6 +4,7 @@ border-radius: 0;
 min-height: 0;
 font-family: JetBrainsMono Nerd Font;
 font-size: 13px;
+color:rgb(255, 255, 255)
 }
 
 window#waybar {
@@ -23,27 +24,27 @@ min-width: 0;
 /* Fix weird spacing in materia (waybar #450) */
 box-shadow: inset 0 -3px transparent;
 /* Use box-shadow instead of border so the text isn't offset */
-padding: 6px 18px;
+padding: 6px 15px;
 margin: 6px 3px;
 border-radius: 4px;
-background-color: #1e1e2e;
-color: #cdd6f4;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #workspaces button.active {
-color: #1e1e2e;
-background-color: #cdd6f4;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #workspaces button:hover {
-box-shadow: inherit;
 text-shadow: inherit;
-color: #1e1e2e;
-background-color: #cdd6f4;
+background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.65), rgba(51, 57, 58, 0.5));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #workspaces button.urgent {
-background-color: #f38ba8;
+background-image: linear-gradient(to bottom, rgba(156, 252, 255, 0.4), rgba(9, 23, 51, 0.4));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #memory,
@@ -57,8 +58,8 @@ background-color: #f38ba8;
 border-radius: 4px;
 margin: 6px 3px;
 padding: 6px 12px;
-background-color: #cdcdcd;
-color: #19334b;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #custom-power {
@@ -71,71 +72,70 @@ padding-left: 7px;
 margin-left: 5px;
 font-size: 15px;
 border-radius: 8px 0px 0px 8px;
-color: #1793d1;
+background-color: transparent;
+    transition-property: background-color;
 }
 
 #memory {
-background-color: #cdcdcd;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #battery {
-background-color: #cdcdcd;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #battery.warning,
 #battery.critical,
 #battery.urgent {
-background-color: #ff0000;
-color: #FFFF00;
-opacity: 0.67;
+    background-image: linear-gradient(to bottom, rgba(213, 14, 14, 0.668), rgba(47, 2, 2, 0.688));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #battery.charging {
-background-color: #d8e7d7;
-color: #181825;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(43, 244, 50, 0.779), rgba(2, 66, 15, 0.598));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #backlight {
-background-color: #cdcdcd;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #wireplumber {
-background-color: #cdcdcd;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 padding-right: 17px;
-opacity: 0.67;
 }
 
 #network {
-background-color: #cdcdcd;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 padding-right: 17px;
-opacity: 0.67;
 }
 
 #clock {
 font-family: JetBrainsMono Nerd Font;
-background-color: #cdcdcd;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 #custom-power {
-background-color: #aaaaaa;
-opacity: 0.67;
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 
 tooltip {
     border-radius: 8px;
-    padding: 15px;
-    background-color: #131822;
-    opacity: 0.67;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
 
 tooltip label {
     padding: 5px;
-    background-color: #131822;
-    opacity: 0.67;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.25), rgba(0,0,0,0.025));
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.34);
 }
