@@ -1,7 +1,40 @@
-i decided that im gonna install the arch on my laptop, so i make that repo to replicate every config that i need
-  first i need to install the yay for waypaper, and flatpak to zen browser (just for fast keybinds) also im installing ttf-jetbrains-mono-nerd for font
-    1. install zsh
-    2. in terminal i set zsh as main shell for terminal
-      chsh /zsh/bin
-    3. clone .zshrc to homefolder
-    4. launch zsh in terminal and configure it
+# Blyat .dotfiles
+мой конфиг (спиздил слегка у других) который мне пиздец как нравится
+
+Обновляю файлы редко, но мне и так по кайфу я и так всё сделал как нужно
+
+# По поводу ZSH
+
+1. **скачивание и установка zsh**
+
+   ```bash
+   sudo pacman -S zsh
+   chsh /bin/zsh
+   ```
+2. **установка**
+
+   в папку юзера кидаете `.zshrc start` и убираете из названия "start"
+
+   в терминале прописываете zsh и как по кайфу выставляете что нужно не забывая в конфиге вашего терминала прописать Nerd шрифт для иконок
+   
+   после настройки заменяете .zshrc на `.zshrc final` там есть всё что нужно, можете дописать алиасы для удобств
+
+   так же нужно установить zoxide и fzf так можно будет через tab ариентироваться в cd
+
+# Теперь про остальное
+
+1. **Waypaper и обои**
+
+  с AUR установить нужно "Waypaper" он позволит нам управлять обоями а так же управлять параметрами swww при переключении их
+
+# Важно
+
+  Waypaper устанавливается из AUR
+
+  swww можно установить
+
+# На этом пока всё! делал я этот проект для сохранения конфига и дальнейшего его обновления
+
+- Если есть идеи по улучшению — создавайте Pull Request (например, добавить поддержку iptables).
+- Если что-то не работает в скрипте, не запускается, создавайте Issue (пожалуйста, не пишите в личные сообщения) — так мы сможем помочь как можно большему числу пользователей.
+- Если у вас не работает сайт или приложение - создавайте [Discussion](https://github.com/Sergeydigl3/zapret-discord-youtube-linux/discussions)
