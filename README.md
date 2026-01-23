@@ -1,4 +1,5 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/83bb9b00-f29b-48f3-818a-c37122e48123" />
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/7684bd9a-790c-4a70-86e7-f4f9b6fd7c22" />
+
 
 
 # Blyat .dotfiles
