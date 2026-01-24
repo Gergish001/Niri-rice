@@ -10,35 +10,30 @@
 
 Обновляю файлы редко, но мне и так по кайфу я и так всё сделал как нужно
 
-# По поводу ZSH
-
-1. **скачивание и установка zsh**
-
+# пакетов что я установил
    ```bash
-   sudo pacman -S zsh
-   chsh /bin/zsh
+   zsh (pacman)
+   waypaper (AUR)
+   swww (pacman)
+   cava (pacman)
+   zen-browser (flatpak)
+   fastfetch (pacman)
+   alacritty (pacman)
+   zoxide (pacman)
+   some nerd font (pacman)
+   fzf (pacman)
    ```
-2. **установка**
+# **installing zsh**
 
-   в папку юзера кидаете `.zshrc start` и убираете из названия "start"
+   after downloading zsh change shell to zsh by `chsh (your password for sudo); /bin/zsh`
 
-   в терминале прописываете zsh и как по кайфу выставляете что нужно не забывая в конфиге вашего терминала прописать Nerd шрифт для иконок
+   in home directory place `.zshrc start` dont forget to remowe "start"
+
+   then in terminal type zsh and start configuring by your taste
    
-   после настройки заменяете .zshrc на `.zshrc final` там есть всё что нужно, можете дописать алиасы для удобств
+   ater everything change .zshrc на `.zshrc final` read aliases and set them as you want
 
-   так же нужно установить zoxide и fzf так можно будет через tab ариентироваться в cd
+# for managing my wallpapers i use waypaper with swww
 
-# Теперь про остальное
-
-1. **Waypaper и обои**
-
-  с AUR установить нужно "Waypaper" он позволит нам управлять обоями а так же управлять параметрами swww при переключении их
-
-# Важно
-
-  Waypaper устанавливается из AUR
-
-  swww устанавливается из pacman
-
-# На этом пока всё! делал я этот проект для сохранения конфига и дальнейшего его обновления
+# thats it for now!
 
