@@ -4,12 +4,9 @@
 
 
 # Blyat .dotfiles
-Это я всё делал для Arch и Wayland композитора Niri
+I made it for myself on my VAIO SVE151 laptop, but now updating some files for his Acer laptop, gonna post wallpapers and other things for config
 
-мой конфиг (спиздил слегка у других) который мне пиздец как нравится
-
-Обновляю файлы редко, но мне и так по кайфу я и так всё сделал как нужно
-
+also this .dotfiles are for Niri, newest scrollable wm on wayland (compositor but who cares?)
 # packages that i install
    ```bash
    zsh (pacman)
@@ -22,6 +19,7 @@
    zoxide (pacman)
    some nerd font (pacman)
    fzf (pacman)
+   dunst (pacman)
    ```
 # **installing zsh**
 
