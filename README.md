@@ -4,7 +4,7 @@
 
 
 # Blyat .dotfiles
-I made it for myself on my VAIO SVE151 laptop, but now updating some files for his Acer laptop, gonna post wallpapers and other things for config
+I made it for myself on my VAIO SVE151 laptop, but now updating it some files for my friend and his Acer laptop, gonna post wallpapers and other things for config
 
 also this .dotfiles are for Niri, newest scrollable wm on wayland (compositor but who cares?)
 # packages that i install
