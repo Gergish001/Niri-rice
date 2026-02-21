@@ -13,6 +13,7 @@
         "clock"
     ],
     "modules-right": [
+        "custom/emoji",
         "wireplumber",
         "battery",
         "custom/power"
@@ -25,7 +26,7 @@
         "icon-size": 12,
         "tooltip-format": "{title}"
     },
-    "hyprland/workspaces": {
+    "niri/workspaces": {
         "on-click": "activate",
         "format": "{icon}",
         "format-icons": {
@@ -52,7 +53,7 @@
     },
     "memory": {
         "interval": 5,
-        "format": " {}%",
+        "format": "   {}%",
         "max-length": 10
     },
     "tray": {
@@ -90,10 +91,15 @@
         "on-click": "pamixer -t",
         "scroll-step": 1
     },
+    "custom/emoji": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "rofi -show emoji"
+    },
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "~/.config/wofi/launchers/misc/launcher.sh &"
+        "on-click": "~/.config/rofi/launchers/launcher.sh &"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -134,6 +140,6 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/wofi/powermenu/type-2/powermenu.sh &"
+        "on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/launchers/powermenu.sh",
     }
 }
